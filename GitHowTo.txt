@@ -1,0 +1,14 @@
+https://help.github.com/articles/create-a-repo
+https://github.com/git/git/blob/master/Documentation/gittutorial.txt
+Open up git
+ git config --global user.name "Your Name Comes Here"
+$ git config --global user.email you@yourdomain.example.com
+
+$ cd project
+$ git init
+git add .
+git commit -m 'message'
+(only have to do once) git remote add origin https://github.com/username/Hello-World.git
+# Creates a remote named "origin" pointing at your GitHub repository
+git push origin master
+# Sends your commits in the "master" branch to GitHub
