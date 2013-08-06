@@ -1,23 +1,42 @@
+<!--
+ Tyler Adams
+ August 6th, 2013
+
+ Can't install ASP on Walden computer without admin
+
+ Adding compiler API
+ Adding Hello World example
+ -->
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Tyler's index</title>
-    <link href="testCSS.css" rel="stylesheet"  type="text/css">
-</head>
-<body>
-<!--<img style="margin: 10px; float: left;" alt="keyword" src="C:\Users\internet\WebstormProjects\image.png" width="400" height="350" />-->
-<h1>Welcome to the test page</h1>
+    <head>
+        <title>Tyler's index</title>
+        <link href="testCSS.css" rel="stylesheet"  type="text/css">
+    </head>
+    <body>
+        <!--<img style="margin: 10px; float: left;" alt="keyword" src="C:\Users\internet\WebstormProjects\image.png" width="400" height="350" />-->
+        <h1>Welcome to the test page</h1>
+        <p>Code a simple Hello World application in JavaScript</p>
+       <!-- This page was last refreshed on <%= Now() %>. -->
+       <!--<form runat="server">
+            <asp:TextBox id="tb3" TextMode="multiline" runat="server" />
+            <br /><br />
+        </form>-->
+        <form method="post" action="post.asp"><!--Use ASP to process user information -->
+            <textarea name="comments" cols="25" rows="5">Enter your code here...
+            </textarea><br>
+            <!--<input type="button" class="orange" value="Submit" /> -->
+        </form>
+        <button type="submit" class="orange">process</button>
 
-    <p>Let's see<b>BOLDY</b></p>
-    <h2>Dos</h2>
-    <p>how this</p>
-    <h3>tres</h3>
-    <p>spaces out</p>
-    <a href="http://www.google.com">Linked Text Here</a>
-    <button>lame button</button>
-    <button class="orange">cool button</button>
-<button class="gray">LilJosh.com</button>
-<!--<button class="blue"><img src="search.png" /></button>-->
-    <select>how does this work</select>
-</body>
+        <!-- <h2>Dos</h2>
+        <p>how this</p>
+        <h3>tres</h3>
+        <p>spaces out</p>
+        <a href="http://www.google.com">Linked Text Here</a>
+        <button>lame button</button>-->
+        <!--<button class="gray">LilJosh.com</button>-->
+        <!--<button class="blue"><img src="search.png" /></button>-->
+        <!--<select>how does this work</select>-->
+    </body>
 </html>
